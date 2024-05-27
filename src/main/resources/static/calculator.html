@@ -10,29 +10,59 @@
 <body>
     <header class="blackbar">Testing</header>
     <main>
-        <h1>Grade Calculator</h1>
 
-        <div>
-            <h2 class="subtitle">Activities</h2>
-            
-            <p1 id="description">Give grades to the numeric activities:</p1>
-            <table>
-                <tr id="tableheader"><th>Name</th><th>Short Name</th><th>Weight</th><th>Grade</th><th>Percent</th></tr>
+        <div id="gradeCalculator">
+            <h1>Grade Calculator</h1>
 
-                <tr></tr>
-        
-            </table>
+            <div id="outerbox">
+                <div id="outerboxtext">
+                    <h2 class="subtitle">Activities</h2>
+                <p id="description">Give grades to the numeric activities:</p>
 
-            <button>ADD ROW</button>
+                <table id="gradesTable">
+                    <tr id="tableHeader">
+                        <th>Name</th>
+                        <th>Short Name</th>
+                        <th>Weight</th>
+                        <th>Grade</th>
+                        <th>Percent</th>
+                    </tr>
+                    <tr>
+                        <td>Activity 1</td>
+                        <td>A1</td>
+                        <td><input type="text" id="weight1" name="weight1"></td>
+                        <td><input type="text" id="grade1" name="grade1"> / <input type="text" id="total1" name="total1"></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>Activity 2</td>
+                        <td>A2</td>
+                        <td><input type="text" id="weight2" name="weight2"></td>
+                        <td><input type="text" id="grade2" name="grade2"> / <input type="text" id="total2" name="total2"></td>
+                        <td></td>
+                    </tr>
+                </table>
+                
+                <button id="AddRow">ADD ROW</button>
 
-            <h2 class="subtitle">Result </h2>
+                <div id="results">
 
-            <button class="resultbutton">WEIGHTED</button>
+                    <h2 class="subtitle">Result </h2>
 
-            <button class="resultbutton">MEAN</button>
+                    <div id="resultbuttons">
+                        <button class="buttonscolor">WEIGHTED</button>
+                        <button class="buttonscolor">MEAN</button>
+                    </div>
+                        
+
+                </div>
+            </div>
+
         </div>
+
     </main>
 
     <footer class="blackbar">Testing</footer>
+        
 </body>
 </html>
