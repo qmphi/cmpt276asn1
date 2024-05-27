@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(146, 0, 0);
+    
+
+}
+
+header, footer {
+    background-color: black;
+    width: 80%;
+    text-align: center;
+    margin-left: 2em;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    background-color: white;
+    width: 80%;
+    margin-left: 2em;
+}
+
+.subtitle{
+    color: red;
+}
+
+div {
+    background-color: darkgray;
+    width: 70%;
+    margin: 0 0 0 20px;
+}
+
+table, tr, th {
+    border: 1px solid black;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 95%;
+    margin: 0 auto;
+}
+
+#tableheader {
+    background-color: grey;
+}
+
+.resultbutton{
+    background-color: red;
+    color: white;
+}
