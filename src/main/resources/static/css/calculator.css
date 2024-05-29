@@ -1,6 +1,6 @@
 body {
-    background-color: rgb(142, 32, 32);
-    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(170, 23, 23);
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 p {
@@ -19,7 +19,7 @@ p {
 
 h1 {
     margin-left: 30px;
-    font-family: Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif
 }   /*indented header*/
 
 .subtitle { 
@@ -86,7 +86,7 @@ input {
 }   /*move buttons to right side*/
 
 .resultbutton {
-    background-color: rgb(142, 32, 32);
+    background-color: rgb(170, 23, 23);
     color: white;
     border: none;
     width: 85px;
