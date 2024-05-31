@@ -19,7 +19,7 @@
             <div id="outerbox">
                 <div id="outerboxtext">
                     <h2 class="subtitle">Activities</h2>
-                <p id="description">Give grades to the numeric activities:</p>
+                    <p id="description">Give grades to the numeric activities:</p>
 
                 <table id="gradesTable">
                     <tr id="tableHeader">
@@ -32,30 +32,23 @@
                     <tr>
                         <td>Activity 1</td>
                         <td>A1</td>
-                        <td><input type="text" id="weight1" name="weight1"></td>
-                        <td><input type="text" id="grade1" name="grade1"> / <input type="text" id="total1" name="total1"></td>
-                        <td></td>
+                        <td><input type="text" id="weight1" ></td>
+                        <td><input type="text" id="grade1" onkeyup="gradeUpdate(this)"> / <input type="text" id="total1" onkeyup="totalUpdate(this)"></td>
+                        <td id="percent1" ></td>
                     </tr>
-                    <!--
-                    <tr>
-                        <td>Activity 2</td>
-                        <td>A2</td>
-                        <td><input type="text" id="weight2" name="weight2"></td>
-                        <td><input type="text" id="grade2" name="grade2"> / <input type="text" id="total2" name="total2"></td>
-                        <td></td>
-                    </tr>
-                    -->
+                    <!-- new row here-->
                 </table><br>
                 
                 <button id="AddRow">ADD ROW</button>
 
                 <div id="results">
 
-                    <h2 class="subtitle">Result </h2><br>
+                    <h2 class="subtitle">Result </h2>
+                    <p id="result"></p>
 
                     <div id="buttondiv">
-                        <button class="resultbutton">WEIGHTED</button>
-                        <button class="resultbutton">MEAN</button>
+                        <button class="resultbutton" id="weightedgrade">WEIGHTED</button>
+                        <button class="resultbutton" id="meangrade">MEAN</button>
                     </div>
                         
                 </div>

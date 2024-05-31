@@ -56,8 +56,9 @@ table, th, td {
 
 table {
     border-collapse: collapse;
+    table-layout: fixed;
     width: 100%;
-}
+} /* clean table border*/
 
 th {
     text-align: left;
@@ -69,11 +70,6 @@ td {
     height: 60px;
     padding-left: 8px;
 }
-
-table {
-    border-collapse: collapse;
-    table-layout: fixed;
-} /* clean table border*/
 
 input {
     height: 40px;
